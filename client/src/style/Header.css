@@ -1,0 +1,57 @@
+/* src/components/Header.css */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 12px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+    
+    nav ul li a {
+      display: block;
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+    }
+  }
+  

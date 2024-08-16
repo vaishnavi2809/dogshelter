@@ -1,0 +1,82 @@
+/* src/pages/Booking.css */
+.booking-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.booking-main {
+  flex: 1;
+  padding: 20px;
+}
+
+.booking-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.booking-form label span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.booking-form textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .booking-form {
+    padding: 15px;
+  }
+  
+  .booking-form label {
+    margin-bottom: 12px;
+  }
+
+  .submit-button {
+    font-size: 0.9rem;
+  }
+}

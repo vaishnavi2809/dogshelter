@@ -1,0 +1,42 @@
+/* src/components/ServiceCard.css */
+.service-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .service-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  .learn-more-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #0056b3;
+  }
+  
